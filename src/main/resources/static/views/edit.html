@@ -1,0 +1,49 @@
+<div class="container">
+    <h1>Edit user</h1>
+
+    <h3>{{message}}</h3>
+
+    <div class="col-md-4">
+        <br/>
+        <form>
+            <div class="form-group">
+                <h2>Add user</h2>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <div>
+                    <input type="text" class="form-control" id="userName" placeholder="Imie"
+                           ng-model="userName"/>
+                </div>
+
+                <label for="name">Surame:</label>
+                <div>
+                    <input type="text" class="form-control" id="userSurname" placeholder="Nazwisko"
+                           ng-model="userSurname"/>
+                </div>
+
+                <label for="name">Age:</label>
+                <div>
+                    <input type="text" class="form-control" id="userAge" placeholder="Wiek" ng-model="userAge"/>
+                </div>
+
+                <label for="name">Salary:</label>
+                <div>
+                    <input type="text" class="form-control" id="userSalary" placeholder="Zarobki" ng-model="userSalary"/>
+                </div>
+
+                <label for="name">Email:</label>
+                <div>
+                    <input type="text" class="form-control" id="userEmail" placeholder="Email" ng-model="userEmail"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <button type="submit" class="btn btn-success" ng-click="saveUser()">Save User</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br/>
+
+</div>
